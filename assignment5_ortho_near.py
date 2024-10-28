@@ -11,7 +11,7 @@ if __name__ == '__main__':
     screen = Screen(500, 500)
 
     camera = OrthoCamera(-0.75, 0.75, -0.75, 0.75, -0.5, -100)
-    camera.transform.set_position(0, 0, 15)
+    camera.transform.set_position(0, 0, 5)
 
     mesh = Mesh.from_stl("unit_cube.stl")
     mesh.transform.set_rotation(15, 45, 0)
